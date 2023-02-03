@@ -1,0 +1,11 @@
+{
+  "name": "watchwebhooks",
+  "version": "1.0.0",
+  "description": "App for executing webhooks on the Kronaby watch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Paredes",
+  "license": "ISC"
+}
