@@ -1,13 +1,16 @@
 {
   "name": "watchwebhooks",
-  "version": "1.0.0",
-  "description": "App for executing webhooks on the Kronaby watch",
-  "main": "app.js",
-  "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "Gabriel Paredes",
-  "license": "ISC"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
